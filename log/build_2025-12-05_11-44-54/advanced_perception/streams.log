@@ -1,0 +1,33 @@
+[4.496s] Invoking command in '/home/user/ros2_ws/src/advanced_perception': PYTHONPATH=/home/user/ros2_ws/build/advanced_perception/prefix_override:/home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/advanced_perception build --build-base /home/user/ros2_ws/build/advanced_perception/build install --record /home/user/ros2_ws/build/advanced_perception/install.log --single-version-externally-managed install_data
+[5.582s] running egg_info
+[5.583s] creating ../../build/advanced_perception/advanced_perception.egg-info
+[5.583s] writing ../../build/advanced_perception/advanced_perception.egg-info/PKG-INFO
+[5.584s] writing dependency_links to ../../build/advanced_perception/advanced_perception.egg-info/dependency_links.txt
+[5.584s] writing entry points to ../../build/advanced_perception/advanced_perception.egg-info/entry_points.txt
+[5.584s] writing requirements to ../../build/advanced_perception/advanced_perception.egg-info/requires.txt
+[5.585s] writing top-level names to ../../build/advanced_perception/advanced_perception.egg-info/top_level.txt
+[5.585s] writing manifest file '../../build/advanced_perception/advanced_perception.egg-info/SOURCES.txt'
+[5.589s] reading manifest file '../../build/advanced_perception/advanced_perception.egg-info/SOURCES.txt'
+[5.590s] writing manifest file '../../build/advanced_perception/advanced_perception.egg-info/SOURCES.txt'
+[5.590s] running build
+[5.590s] running build_py
+[5.590s] creating /home/user/ros2_ws/build/advanced_perception/build
+[5.591s] creating /home/user/ros2_ws/build/advanced_perception/build/lib
+[5.591s] creating /home/user/ros2_ws/build/advanced_perception/build/lib/advanced_perception
+[5.591s] copying advanced_perception/__init__.py -> /home/user/ros2_ws/build/advanced_perception/build/lib/advanced_perception
+[5.591s] running install
+[5.591s] running install_lib
+[5.592s] creating /home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception
+[5.592s] copying /home/user/ros2_ws/build/advanced_perception/build/lib/advanced_perception/__init__.py -> /home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception
+[5.593s] byte-compiling /home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception/__init__.py to __init__.cpython-310.pyc
+[5.593s] running install_data
+[5.593s] creating /home/user/ros2_ws/install/advanced_perception/share/ament_index
+[5.593s] creating /home/user/ros2_ws/install/advanced_perception/share/ament_index/resource_index
+[5.594s] creating /home/user/ros2_ws/install/advanced_perception/share/ament_index/resource_index/packages
+[5.594s] copying resource/advanced_perception -> /home/user/ros2_ws/install/advanced_perception/share/ament_index/resource_index/packages
+[5.594s] copying package.xml -> /home/user/ros2_ws/install/advanced_perception/share/advanced_perception
+[5.594s] running install_egg_info
+[5.596s] Copying ../../build/advanced_perception/advanced_perception.egg-info to /home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception-0.0.0-py3.10.egg-info
+[5.597s] running install_scripts
+[5.696s] writing list of installed files to '/home/user/ros2_ws/build/advanced_perception/install.log'
+[5.793s] Invoked command in '/home/user/ros2_ws/src/advanced_perception' returned '0': PYTHONPATH=/home/user/ros2_ws/build/advanced_perception/prefix_override:/home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/advanced_perception build --build-base /home/user/ros2_ws/build/advanced_perception/build install --record /home/user/ros2_ws/build/advanced_perception/install.log --single-version-externally-managed install_data
