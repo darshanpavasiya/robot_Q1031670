@@ -1,0 +1,45 @@
+[2.800s] Invoking command in '/home/user/ros2_ws/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/yolo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/yolo_msgs/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/ros2_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/user/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/user/ros2_ws/build/yolo_ros/build install --record /home/user/ros2_ws/build/yolo_ros/install.log --single-version-externally-managed install_data
+[3.175s] running egg_info
+[3.194s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[3.195s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[3.195s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[3.196s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[3.196s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[3.196s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[3.196s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[3.245s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[3.247s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[3.247s] running build
+[3.247s] running build_py
+[3.248s] creating /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[3.248s] copying yolo_ros/detect_3d_node.py -> /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[3.248s] copying yolo_ros/yolo_node.py -> /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[3.249s] copying yolo_ros/debug_node.py -> /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[3.249s] copying yolo_ros/__init__.py -> /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[3.249s] copying yolo_ros/tracking_node.py -> /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[3.249s] running install
+[3.255s] running install_lib
+[3.280s] creating /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[3.280s] copying /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[3.280s] copying /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[3.280s] copying /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[3.280s] copying /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[3.280s] copying /home/user/ros2_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[3.281s] byte-compiling /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[3.287s] byte-compiling /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[3.289s] byte-compiling /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[3.291s] byte-compiling /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[3.292s] byte-compiling /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[3.293s] running install_data
+[3.293s] creating /home/user/ros2_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[3.293s] copying resource/yolo_ros -> /home/user/ros2_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[3.293s] copying package.xml -> /home/user/ros2_ws/install/yolo_ros/share/yolo_ros
+[3.294s] running install_egg_info
+[3.315s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[3.316s] running install_scripts
+[3.380s] Installing debug_node script to /home/user/ros2_ws/install/yolo_ros/lib/yolo_ros
+[3.380s] Installing detect_3d_node script to /home/user/ros2_ws/install/yolo_ros/lib/yolo_ros
+[3.380s] Installing tracking_node script to /home/user/ros2_ws/install/yolo_ros/lib/yolo_ros
+[3.380s] Installing yolo_node script to /home/user/ros2_ws/install/yolo_ros/lib/yolo_ros
+[3.381s] writing list of installed files to '/home/user/ros2_ws/build/yolo_ros/install.log'
+[3.408s] Invoked command in '/home/user/ros2_ws/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/yolo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/yolo_msgs/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/ros2_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/user/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/user/ros2_ws/build/yolo_ros/build install --record /home/user/ros2_ws/build/yolo_ros/install.log --single-version-externally-managed install_data

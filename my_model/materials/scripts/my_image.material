@@ -1,0 +1,13 @@
+material MyImage/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture image.jpeg
+      }
+    }
+  }
+}
